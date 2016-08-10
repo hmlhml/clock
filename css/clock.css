@@ -1,0 +1,43 @@
+#can{
+	/*border: 1px solid red;*/
+	z-index: 2;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.bg{
+	width: 400px;
+	height: 400px;
+	background: pink;
+	position: absolute;
+	left: 50px;
+	top:50px;
+	border-radius: 50%;
+	background: url(../images/bg.png);
+	background-size: 100%;
+}
+.center{
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	background: url(../images/center.png);
+	background-position: 100%;
+	z-index: 3;
+	left:242px;
+	top:242px;
+	border-radius: 50%;
+}
+.clock{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	left:26%;
+	top:10%;
+
+}
+html,body{
+	height: 100%;
+	margin: 0;
+	background: url(../images/dbg.jpg) no-repeat;
+	background-size: cover;
+}
